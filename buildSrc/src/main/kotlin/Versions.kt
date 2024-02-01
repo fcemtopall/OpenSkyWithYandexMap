@@ -8,7 +8,7 @@ object Versions {
     const val material = "1.11.0"
     const val constraintLayout = "2.1.4"
 
-
+    const val navigation = "2.7.6"
 
     const val junit = "4.13.2"
     const val extJunit = "1.1.5"
@@ -16,7 +16,7 @@ object Versions {
 
     const val hilt = "2.45"
 
-    const val okHttp = "5.0.0-alpha.2"
+    const val okHttp = "4.10.0"
     const val retrofit = "2.9.0"
 
     const val room = "2.5.0"

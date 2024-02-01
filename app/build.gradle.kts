@@ -10,7 +10,7 @@ plugins {
 
 android {
     namespace = libs.versions.projectNameSpace.get()
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdkVersion(libs.versions.compileSdk.get().toInt())
 
     defaultConfig {
         applicationId = libs.versions.applicationID.get()
@@ -51,7 +51,9 @@ android {
 
 dependencies {
 
+
     androidx()
+    navigation()
     hilt()
     yandexMap()
 }

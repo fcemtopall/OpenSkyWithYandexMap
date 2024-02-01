@@ -15,7 +15,10 @@ object Dependencies {
     const val material = "com.google.android.material:material:${Versions.material}"
     const val constraintLayout = "androidx.core:core-ktx:${Versions.constraintLayout}"
 
-
+    const val navFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    const val navCompose = "androidx.navigation:navigation-compose:${Versions.navigation}"
+    const val navTest = "androidx.navigation:navigation-testing:${Versions.navigation}"
 
     const val junit = "junit:junit:${Versions.junit}"
     const val extJunit = "androidx.test.ext:junit:${Versions.extJunit}"

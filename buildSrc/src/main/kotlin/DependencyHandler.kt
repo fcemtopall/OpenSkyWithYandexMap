@@ -28,7 +28,12 @@ fun DependencyHandler.retrofit() {
     implementation(Dependencies.okHttpLoggingInterceptor)
 }
 
-
+fun DependencyHandler.navigation(){
+    implementation(Dependencies.navFragment)
+    implementation(Dependencies.navUi)
+    implementation(Dependencies.navCompose)
+    implementation(Dependencies.navTest)
+}
 
 fun DependencyHandler.hilt() {
     implementation(Dependencies.hiltAndroid)
