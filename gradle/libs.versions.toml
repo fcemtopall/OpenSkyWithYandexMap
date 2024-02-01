@@ -1,0 +1,12 @@
+[versions]
+# @keep
+projectNameSpace = "com.fcemtopall.openskywithyandexmap"
+applicationID = "com.fcemtopall.openskywithyandexmap"
+
+testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+compileSdk = "34"
+minSdk = "24"
+targetSdk = "33"
+versionCode = "1"
+versionName = "1.0"
